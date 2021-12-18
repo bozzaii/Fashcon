@@ -1,0 +1,4 @@
+Install Allure
+Install scoop
+
+Command for creating report: allure serve {{apsolutePath}}\\Fashcon\\Fashcon\\allure-results in Power Shell
