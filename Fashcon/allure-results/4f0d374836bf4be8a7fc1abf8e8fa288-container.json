@@ -1,0 +1,76 @@
+{
+  "uuid": "6ca934a0-2fbd-4edd-bb26-0adf19c56187-tc-0-1000",
+  "name": "Fashcon.Tests.LoginTests.LoginTests.LogIn",
+  "children": [
+    "4a50375b-e619-4f0a-ae48-eeb74c063a46-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1639829607425,
+      "stop": 1639829607425
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1639829607425,
+      "stop": 1639829607425
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1639829607425,
+      "stop": 1639829607425
+    },
+    {
+      "name": "OneTimeTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1639829607425,
+      "stop": 1639829607425
+    }
+  ],
+  "links": [],
+  "start": 1639829588082,
+  "stop": 1639829607464
+}

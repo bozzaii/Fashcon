@@ -1,0 +1,163 @@
+{
+  "uuid": "4a50375b-e619-4f0a-ae48-eeb74c063a46-tr-0-1001",
+  "historyId": "Fashcon.Tests.LoginTests.LoginTests.LogIn",
+  "fullName": "Fashcon.Tests.LoginTests.LoginTests.LogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-L6A5PMQ"
+    },
+    {
+      "name": "package",
+      "value": "Fashcon.Tests.LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "epic",
+      "value": "fash-8652"
+    },
+    {
+      "name": "story",
+      "value": "fash-8653"
+    },
+    {
+      "name": "owner",
+      "value": "Nedim Hasanagic"
+    }
+  ],
+  "links": [],
+  "name": "LogIn",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LogIn"
+  },
+  "stage": "finished",
+  "description": "Test Cases with valid credentials for Log In functionality",
+  "steps": [
+    {
+      "name": "LogIn",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click on Log I n Button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1639829594658,
+          "stop": 1639829595588
+        },
+        {
+          "name": "Enter UserName/Email",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "xohigeg992@macauvpn.com"
+            }
+          ],
+          "start": 1639829595588,
+          "stop": 1639829595771
+        },
+        {
+          "name": "Enter Password",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Testpass1"
+            }
+          ],
+          "start": 1639829595772,
+          "stop": 1639829595854
+        },
+        {
+          "name": "Click on Log In Button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1639829595855,
+          "stop": 1639829606947
+        },
+        {
+          "name": "Validation Redirection and Sign In",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1639829606948,
+          "stop": 1639829607146
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "23a069be3ec143deb04969ea3f2285de-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1639829588084,
+      "stop": 1639829607428
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1639829588084,
+  "stop": 1639829607434
+}

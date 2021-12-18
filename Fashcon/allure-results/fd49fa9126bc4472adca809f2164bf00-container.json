@@ -1,0 +1,76 @@
+{
+  "uuid": "cabf7cfa-f9dc-483a-b2fd-187e4c898b45-tc-0-1000",
+  "name": "Fashcon.Tests.LoginTests.LoginTests.LogInInvalidTests(\"xohigeg992@macauvpn.com\",\"Testpass2\",\"Failed on purpose\")",
+  "children": [
+    "4cf0e981-db50-4dac-a489-833ab6bd1036-tr-0-1004"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1639829630436,
+      "stop": 1639829630436
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1639829630436,
+      "stop": 1639829630436
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1639829630436,
+      "stop": 1639829630436
+    },
+    {
+      "name": "OneTimeTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1639829630436,
+      "stop": 1639829630436
+    }
+  ],
+  "links": [],
+  "start": 1639829623572,
+  "stop": 1639829630439
+}

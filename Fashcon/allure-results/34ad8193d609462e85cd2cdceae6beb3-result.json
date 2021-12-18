@@ -1,0 +1,186 @@
+{
+  "uuid": "4cf0e981-db50-4dac-a489-833ab6bd1036-tr-0-1004",
+  "historyId": "Fashcon.Tests.LoginTests.LoginTests.LogInInvalidTests(\"xohigeg992@macauvpn.com\",\"Testpass2\",\"Failed on purpose\")",
+  "fullName": "Fashcon.Tests.LoginTests.LoginTests.LogInInvalidTests(\"xohigeg992@macauvpn.com\",\"Testpass2\",\"Failed on purpose\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-L6A5PMQ"
+    },
+    {
+      "name": "package",
+      "value": "Fashcon.Tests.LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LogInInvalidTests"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "epic",
+      "value": "fash-8654"
+    },
+    {
+      "name": "story",
+      "value": "fash-8655"
+    },
+    {
+      "name": "owner",
+      "value": "Nedim Hasanagic"
+    }
+  ],
+  "links": [],
+  "name": "LogInInvalidTests(\"xohigeg992@macauvpn.com\",\"Testpass2\",\"Failed on purpose\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected errorMessage.Text \"Error message\r\nIncorrect username or password.\" to contain \"Failed on purpose\".",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringAssertions`1.Contain(String expected, String because, Object[] becauseArgs)\r\n   at Fashcon.Pages.LoginPage.__a$_around_ValidateErrorMessage_100663340_o(String expectedMessage) in C:\\Users\\nedim\\source\\repos\\Fashcon\\Fashcon\\Pages\\LoginPage.cs:line 42\r\n   at Fashcon.Pages.LoginPage.__a$_around_ValidateErrorMessage_100663340_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Fashcon.Pages.LoginPage.__a$_around_ValidateErrorMessage_100663340_w_0(Object[] )\r\n   at Fashcon.Pages.LoginPage.ValidateErrorMessage(String expectedMessage)\r\n   at Fashcon.Tests.LoginTests.LoginTests.LogInInvalidTests(String email, String pass, String expectedResult) in C:\\Users\\nedim\\source\\repos\\Fashcon\\Fashcon\\Tests\\LoginTests.cs:line 39\r\n"
+  },
+  "stage": "finished",
+  "description": "Test Cases with Invalid credentials for Log In functionality",
+  "steps": [
+    {
+      "name": "LogInInvalidTests(\"xohigeg992@macauvpn.com\",\"Testpass2\",\"Failed on purpose\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected errorMessage.Text \"Error message\r\nIncorrect username or password.\" to contain \"Failed on purpose\".",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringAssertions`1.Contain(String expected, String because, Object[] becauseArgs)\r\n   at Fashcon.Pages.LoginPage.__a$_around_ValidateErrorMessage_100663340_o(String expectedMessage) in C:\\Users\\nedim\\source\\repos\\Fashcon\\Fashcon\\Pages\\LoginPage.cs:line 42\r\n   at Fashcon.Pages.LoginPage.__a$_around_ValidateErrorMessage_100663340_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Fashcon.Pages.LoginPage.__a$_around_ValidateErrorMessage_100663340_w_0(Object[] )\r\n   at Fashcon.Pages.LoginPage.ValidateErrorMessage(String expectedMessage)\r\n   at Fashcon.Tests.LoginTests.LoginTests.LogInInvalidTests(String email, String pass, String expectedResult) in C:\\Users\\nedim\\source\\repos\\Fashcon\\Fashcon\\Tests\\LoginTests.cs:line 39\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click on Log I n Button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1639829627571,
+          "stop": 1639829628340
+        },
+        {
+          "name": "Enter UserName/Email",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "xohigeg992@macauvpn.com"
+            }
+          ],
+          "start": 1639829628340,
+          "stop": 1639829628621
+        },
+        {
+          "name": "Enter Password",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Testpass2"
+            }
+          ],
+          "start": 1639829628621,
+          "stop": 1639829628694
+        },
+        {
+          "name": "Click on Log In Button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1639829628694,
+          "stop": 1639829630086
+        },
+        {
+          "name": "Validate Error Message",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Expected errorMessage.Text \"Error message\r\nIncorrect username or password.\" to contain \"Failed on purpose\".",
+            "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringAssertions`1.Contain(String expected, String because, Object[] becauseArgs)\r\n   at Fashcon.Pages.LoginPage.__a$_around_ValidateErrorMessage_100663340_o(String expectedMessage) in C:\\Users\\nedim\\source\\repos\\Fashcon\\Fashcon\\Pages\\LoginPage.cs:line 42\r\n   at Fashcon.Pages.LoginPage.__a$_around_ValidateErrorMessage_100663340_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Failed on purpose"
+            }
+          ],
+          "start": 1639829630086,
+          "stop": 1639829630257
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8884cc0d9497479d9f3b44d4d6634825-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1639829623572,
+      "stop": 1639829630438
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "xohigeg992@macauvpn.com"
+    },
+    {
+      "name": "Param #1",
+      "value": "Testpass2"
+    },
+    {
+      "name": "Param #2",
+      "value": "Failed on purpose"
+    }
+  ],
+  "start": 1639829623572,
+  "stop": 1639829630438
+}

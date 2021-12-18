@@ -1,0 +1,181 @@
+{
+  "uuid": "40f2c6fe-3f84-494d-af06-d59d2f95a1c2-tr-0-1002",
+  "historyId": "Fashcon.Tests.LoginTests.LoginTests.LogInInvalidTests(\"xohigeg991@macauvpn.com\",\"Testpass1\",\"Incorrect username or password.\")",
+  "fullName": "Fashcon.Tests.LoginTests.LoginTests.LogInInvalidTests(\"xohigeg991@macauvpn.com\",\"Testpass1\",\"Incorrect username or password.\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-L6A5PMQ"
+    },
+    {
+      "name": "package",
+      "value": "Fashcon.Tests.LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LogInInvalidTests"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "epic",
+      "value": "fash-8654"
+    },
+    {
+      "name": "story",
+      "value": "fash-8655"
+    },
+    {
+      "name": "owner",
+      "value": "Nedim Hasanagic"
+    }
+  ],
+  "links": [],
+  "name": "LogInInvalidTests(\"xohigeg991@macauvpn.com\",\"Testpass1\",\"Incorrect username or password.\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LogInInvalidTests(\"xohigeg991@macauvpn.com\",\"Testpass1\",\"Incorrect username or password.\")"
+  },
+  "stage": "finished",
+  "description": "Test Cases with Invalid credentials for Log In functionality",
+  "steps": [
+    {
+      "name": "LogInInvalidTests(\"xohigeg991@macauvpn.com\",\"Testpass1\",\"Incorrect username or password.\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click on Log I n Button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1639829612089,
+          "stop": 1639829612861
+        },
+        {
+          "name": "Enter UserName/Email",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "xohigeg991@macauvpn.com"
+            }
+          ],
+          "start": 1639829612861,
+          "stop": 1639829613122
+        },
+        {
+          "name": "Enter Password",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Testpass1"
+            }
+          ],
+          "start": 1639829613122,
+          "stop": 1639829613195
+        },
+        {
+          "name": "Click on Log In Button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1639829613195,
+          "stop": 1639829616368
+        },
+        {
+          "name": "Validate Error Message",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Incorrect username or password."
+            }
+          ],
+          "start": 1639829616369,
+          "stop": 1639829616405
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c1ed11d02f5f4dd3806c07559b25a4de-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1639829607472,
+      "stop": 1639829616561
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "xohigeg991@macauvpn.com"
+    },
+    {
+      "name": "Param #1",
+      "value": "Testpass1"
+    },
+    {
+      "name": "Param #2",
+      "value": "Incorrect username or password."
+    }
+  ],
+  "start": 1639829607472,
+  "stop": 1639829616562
+}
